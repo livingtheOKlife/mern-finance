@@ -1,0 +1,24 @@
+{
+  "name": "mern-finance",
+  "version": "1.0.0",
+  "description": "finance tracker using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livingtheOKlife/mern-finance.git"
+  },
+  "keywords": [
+    "finance",
+    "tracker",
+    "mern"
+  ],
+  "author": "livingtheOKlife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livingtheOKlife/mern-finance/issues"
+  },
+  "homepage": "https://github.com/livingtheOKlife/mern-finance#readme"
+}
