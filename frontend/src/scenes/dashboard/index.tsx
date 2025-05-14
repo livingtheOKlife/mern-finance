@@ -1,5 +1,7 @@
 import { Box, useMediaQuery, useTheme } from '@mui/material'
-import React from 'react'
+import Row1 from './Row1'
+import Row2 from './Row2'
+import Row3 from './Row3'
 
 type Props = {}
 
@@ -66,16 +68,9 @@ const Dashboard = (props: Props) => {
         }
       }
     >
-      <Box gridArea='a' border='1px solid #fff'></Box>
-      <Box gridArea='b' border='1px solid #fff'></Box>
-      <Box gridArea='c' border='1px solid #fff'></Box>
-      <Box gridArea='d' border='1px solid #fff'></Box>
-      <Box gridArea='e' border='1px solid #fff'></Box>
-      <Box gridArea='f' border='1px solid #fff'></Box>
-      <Box gridArea='g' border='1px solid #fff'></Box>
-      <Box gridArea='h' border='1px solid #fff'></Box>
-      <Box gridArea='i' border='1px solid #fff'></Box>
-      <Box gridArea='j' border='1px solid #fff'></Box>
+      <Row1 />
+      <Row2 />
+      <Row3 />
     </Box>
   )
 }
